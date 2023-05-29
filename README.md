@@ -1,6 +1,6 @@
 # Galleria em Next.js
 
-<img src="screenshot.png" alt="imagem do projeto" style="width: 700px" />
+<img src="screenshot.PNG" alt="imagem do projeto" style="width: 700px" />
 
 > A aplicação é desenvolvida com Next.js, React e TailwindCSS, e utiliza manipulação de dados por meio de APIs para fornecer uma experiência dinâmica e responsiva.
 
