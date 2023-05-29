@@ -27,7 +27,7 @@ Esta aplicação foi originalmente desenvolvida em Svelte como parte do curso de
 
 ## 🚀 Assessando o projeto
 
-Para o projeto, basta clicar [aqui]()<br>
+Para acessar o projeto, basta [clicar aqui](https://galleria-next-js.vercel.app/)<br>
 <br>
 
 ## 📝 Licença
