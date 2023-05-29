@@ -1,7 +1,5 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import Head from 'next/head';
-import { metadata } from './layout';
 import Image from '../components/Image';
 import Album from '../components/Album';
 
@@ -47,9 +45,6 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <title>{metadata.title}</title>
-      </Head>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8">
         {status 
           ? albuns.filter(album => album.id === 0 || album.id % 50 === 0).slice(0, numItens).map((album) => (

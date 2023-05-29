@@ -1,7 +1,5 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import Head from 'next/head';
-import { metadata } from '../layout';
 import Image from '../../components/Image';
 
 export default function Fotos() {
@@ -28,9 +26,7 @@ export default function Fotos() {
 
     return (
         <>
-            <Head>
-                <title>{metadata.title}</title>
-            </Head>
+            
             <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8">
                 {images.slice(0, numItens).map((image) => (
                     <Image key={image.id} url={image.url} title={image.title} />

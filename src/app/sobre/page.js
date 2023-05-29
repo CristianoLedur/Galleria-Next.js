@@ -1,14 +1,10 @@
 'use client';
-import Head from 'next/head';
-import { metadata } from '../layout';
+
 import Image from 'next/image';
 
 export default function Sobre() {
     return (
         <>
-            <Head>
-                <title>{metadata.title}</title>
-            </Head>
             <p className="my-4 text-gray-500 dark:text-gray-400">
                 Seja bem-vindo à nossa galeria de fotos! Este projeto foi desenvolvido utilizando a tecnologia Svelte, como parte da disciplina de Programação III do curso de Análise e Desenvolvimento de Sistemas do Instituto Federal do Rio Grande do Sul.
             </p>
